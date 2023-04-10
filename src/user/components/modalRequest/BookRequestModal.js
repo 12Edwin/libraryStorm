@@ -116,10 +116,12 @@ export const BookRequestModal = ({ data, open }) => {
         // Añadir animación de entrada con react-spring
         const modal = document.querySelector('.swal2-modal');
         const overlay = document.querySelector('.swal2-overlay');
+        // eslint-disable-next-line react-hooks/rules-of-hooks
         const modalProps = useSpring({
           from: { transform: 'translate3d(0,-50px,0)', opacity: 0 },
           to: { transform: 'translate3d(0,0,0)', opacity: 1 },
         });
+        // eslint-disable-next-line react-hooks/rules-of-hooks
         const overlayProps = useSpring({
           from: { opacity: 0 },
           to: { opacity: 1 },

@@ -2,114 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac489fad-78b5-4f5a-b21a-f24efce64792" name="Changes" comment="reactjs">
-      <change afterPath="$PROJECT_DIR$/src/admin/components/createBook/CreateBook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/createBook/CreateProduct.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/inventory/BookStack.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/inventory/BookStack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/modalEdit/BookEditModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/modalEdit/ModalEdit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/modalUser/UpdateUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/navigator/NavBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/navigator/SideNav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/profile/Card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/profile/CardComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/request/Request.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/request/Request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/sales/History.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/sales/SalesComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/users/UserTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/components/users/UsersComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/getAllSales.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/getAllUsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/getBooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/getCategories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/getRequestGral.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/getUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/insertBook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/insertImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/removeBook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/updateBook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/updateRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/updateUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helpers/userDisabled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/pages/AccountPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/pages/CreateBookPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/pages/InventoryPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/pages/RequestPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/pages/SalesPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/pages/UsersPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/routes/AdminRoutes.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/book.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/components/loading/Loading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/components/loading/LoadingComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/components/login/Login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/components/login/LoginComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/components/login/login.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/context/AuthContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/context/AuthProvider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/context/authReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/helpers/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/helpers/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/helpers/validateToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/pages/LoginPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/pages/PageNotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/pages/SomeProblems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/types/Types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/AppRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/Index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/Index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/PrivateRouteAdmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/PrivateRouteUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/PublicRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/indexIcon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/buyBook/BuyBook.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/buyBook/BuyBookComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/detailsBook/DetailsBookComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/history/History.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/history/HistoryComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/inventory/BookStack.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/inventory/BookStack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/modalRequest/BookRequestModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/modalRequest/ModalRequest.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/modalUser/UpdateUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/navigator/NavBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/navigator/SideNav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/profile/Card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/profile/CardComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/request/Request.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/components/request/Request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/helpers/cancelRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/helpers/cancelSale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/helpers/createRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/helpers/createSale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/helpers/getBook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/helpers/getBookDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/helpers/getBooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/helpers/getHistory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/helpers/getSales.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/helpers/getUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/helpers/updateUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/pages/DetailsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/pages/HistoryPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/pages/ProfilePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/pages/StockPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/routes/UserRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/components/buyBook/BuyBookComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/components/buyBook/BuyBookComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/components/inventory/BookStack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/components/inventory/BookStack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/components/modalRequest/BookRequestModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/components/modalRequest/BookRequestModal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +23,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/admin/components/inventory/BookStack.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/auth/pages/LoginPage.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/user/components/buyBook/BuyBookComponent.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/user/components/inventory/BookStack.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/user/components/modalRequest/BookRequestModal.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -141,21 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/elpor/Documents/5to_cuatrimestre/Base_de_datos_en_la_nubee/libraryStorm/librarystorm",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/elpor/Documents/5to_cuatrimestre/Base_de_datos_en_la_nubee/libraryStorm/librarystorm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\elpor\Documents\5to_cuatrimestre\Base_de_datos_en_la_nubee\libraryStorm\librarystorm" />
@@ -173,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681081544226</updated>
-      <workItem from="1681081548284" duration="8743000" />
+      <workItem from="1681081548284" duration="9658000" />
+      <workItem from="1681091969117" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="reactjs">
       <created>1681086463468</created>

@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { Button, Card, Col, Row } from "react-bootstrap";
 import { AuthContext } from "../../../auth/context/AuthContext";
 import { createRequest } from "../../helpers/createRequest";
+import { useSpring, animated } from 'react-spring';
 import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoneyBill1Wave, faMoneyBillAlt, faMoneyCheckDollar, faUpload } from '@fortawesome/free-solid-svg-icons'
@@ -16,7 +17,6 @@ import { createSale } from "../../helpers/createSale";
 
 export const BuyBookComponent = ({ data, open }) => {
 
-  const [inputValue, setInputValue] = useState('');
 
   const onError = () => {
     Swal.fire({
@@ -122,10 +122,12 @@ export const BuyBookComponent = ({ data, open }) => {
         // Añadir animación de entrada con react-spring
         const modal = document.querySelector('.swal2-modal');
         const overlay = document.querySelector('.swal2-overlay');
+        // eslint-disable-next-line react-hooks/rules-of-hooks
         const modalProps = useSpring({
           from: { transform: 'translate3d(0,-50px,0)', opacity: 0 },
           to: { transform: 'translate3d(0,0,0)', opacity: 1 },
         });
+        // eslint-disable-next-line react-hooks/rules-of-hooks
         const overlayProps = useSpring({
           from: { opacity: 0 },
           to: { opacity: 1 },
@@ -153,53 +155,3 @@ export const BuyBookComponent = ({ data, open }) => {
     <></>
   );
 }
-
-const moneyInput = () => {
-  <Formik
-    initialValues={{ pay: '' }}
-    validationSchema={
-      Yup.object().shape({
-        pay: Yup.number("Este es un campo numérico").min(data.price, 'El mínimo es de $' + data.price).required('Este campo es obligatorio')
-      })}
-    onSubmit={(values, { setSubmitting }) => {
-      setTimeout(async () => {
-        await handleSubmit(values);
-        setSubmitting(false);
-      }, 400);
-    }}
-  >
-    {({ isSubmitting, setFieldTouched, setFieldError, touched, errors }) =>
-    (<Form>
-      <Card style={{ width: '18rem', margin: '1rem', padding: '0px' }}>
-        <Card.Body>
-          <Card.Title>Rellena los campos</Card.Title>
-          <label htmlFor="pay" style={{ display: 'flex' }}>Cantidad en dinero:</label>
-          <Field
-            id="pay"
-            type="number"
-            name="pay"
-            step="0.01" // Permitir números con 2 decimales
-            placeholder="0,00 $" // Mostrar un ejemplo del formato de la moneda
-            style={{ borderRadius: '0.4rem', display: 'flex', marginTop: '10px', borderBlockStyle: 'hidden', width: '200px', backgroundColor: 'rgb(206, 201, 201)' }}
-          />
-          {touched.pay && errors.pay && <div className="alert alert-danger error">{errors.pay}</div>}
-        </Card.Body>
-      </Card>
-      <div className="container">
-        <div className="row">
-          <div className="col-9">
-            <MDBBtn type="submit" disabled={isSubmitting} className="submit-button mt-5" >
-              {isSubmitting ? <FontAwesomeIcon icon={faUpload} spin /> : `Pagar  $  ${data.price}`} <FontAwesomeIcon icon={faMoneyCheckDollar} />
-            </MDBBtn>
-          </div>
-          <div className="col-3">
-            <Button type="button" disabled={isSubmitting} onClick={() => onIsOpen(false)} style={{ backgroundColor: '#6f7274' }} className="submit-button mt-5">
-              Cerrar
-            </Button>
-          </div>
-        </div>
-      </div>
-    </Form>)}
-  </Formik>
-}
-

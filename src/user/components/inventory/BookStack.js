@@ -52,10 +52,6 @@ export const BookStack = ({reload}) => {
     setLoading(false);
   }
 
-  const fillCategories = async () =>{
-    const response = await getCategories();
-    setCategories(response);
-  }
   
   useEffect(() => {
     fillBooks();
